@@ -1,6 +1,6 @@
 {
     "id": "php",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "name": "PHP",
     "documentationURL": "https://github.com/devcontainers/features/tree/main/src/php",
     "options": {
@@ -24,12 +24,6 @@
     },
     "customizations": {
         "vscode": {
-            "extensions": [
-                "xdebug.php-debug",
-                "bmewburn.vscode-intelephense-client",
-                "xdebug.php-pack",
-                "devsense.phptools-vscode"
-            ],
             "settings": {
                 "github.copilot.chat.codeGeneration.instructions": [
                     {

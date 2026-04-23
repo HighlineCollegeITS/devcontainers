@@ -1,6 +1,12 @@
 {
     "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bookworm",
     "customizations": {
+        "jetbrains": {
+            "settings": {
+                "Git4Idea:app:Git-Application-Settings.use_credential_helper": true,
+                "com.intellij:app:HttpConfigurable.use_proxy_pac": true
+            }
+        },
         "vscode": {
             "settings": {
                 "json.schemas": [
